@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  } 
+
+.container, .header, .top-header {
+    width: 100%;
+    display: flex;
+}
+
+/* Container Start */
+.container {
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Header */
+.header {
+    height: 150px;
+    flex-direction: column;
+}
+
+/* Top header Start */
+.top-header {
+    height: 35px;
+    justify-content: flex-end;
+    font-size: 20px
+}
+
+
+.top-header-kontakt-link, .top_header-input, .top-header-eng, .top-header-fi, .top-header-se {
+    height: 35px;
+}
+
+.top-header-kontakt-link {
+    background-color: #bbc04b;
+    color: black;
+    font-weight: 900;
+    border-left: 10px solid #bbc04b;
+    border-radius: 0px 10px 0px 10px;
+    margin-right: -12px;
+    padding: 4px 16px 4px 8px;
+}
+
+.top_header-input {
+    width: 15rem;
+    font-size: 20px;
+    color: black;
+    background-color: #D1D586;
+    border: none;
+}
+
+.topheader-links {
+    width: 13srem;
+}
+
+
+.top-header-eng, .top-header-fi, .top-header-sv {
+    background-color: black;
+    color: white;
+    padding: 0.54rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.top-header-eng {
+    border-radius: 1px 1px 1px 10px;
+}
+
+.top-header-fi {
+
+}
+
+.top-header-sv {
+
+}
+/* Top header End */
+
+.img-and-drop-down-links {
+    width: 100%;
+    display: flex;
+}
+
+.img-and-drop-down-links a {
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: black;
+}
+
+.img-and-drop-down-links img {
+    height: 100px;
+    width: 250px;
+    margin-left: 70px;
+    position: relative;
+}
+
+
+
+
+
+/* Header End */
+
+/* Link roboto slabs text formatet från google */
